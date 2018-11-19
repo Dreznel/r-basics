@@ -40,6 +40,5 @@ server <- function(input, output) {
   })
 
 }
-cat("Yes it started\n");
+
 shinyApp(ui = ui, server = server)
-cat("Yes it ended.\n");

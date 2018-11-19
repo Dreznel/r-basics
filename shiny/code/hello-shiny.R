@@ -1,6 +1,6 @@
 library(shiny)
 
-ui <- fluidPage()
+ui <- fluidPage("Hello")
 
 server <- function(input, output) {}
 
