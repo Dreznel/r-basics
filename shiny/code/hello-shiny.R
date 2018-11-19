@@ -1,7 +1,13 @@
 library(shiny)
 
-ui <- fluidPage("Hello")
+ui <- fluidPage(
+  headerPanel("Hello"),
+  sidebarPanel("Inputs"),
+  mainPanel("Outputs?")
+)
 
-server <- function(input, output) {}
+server <- function(input, output) {
+
+}
 
 shinyApp(ui = ui, server = server)
