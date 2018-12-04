@@ -1,4 +1,4 @@
-cat ('Hello, World!\n')
+cat ("Hello, World!\n")
 
 {
   x <- rnorm(50);
@@ -6,8 +6,8 @@ cat ('Hello, World!\n')
   plot(x, y);
   ls();
   rm(x,y);
-  x <- 1:20
+  x <- 1:20;
   w <- 1 + sqrt(x) / 2;
-  dummy <- data.frame(x=x, y=x+ rnorm(x) * w)
-  dummy
+  dummy <- data.frame(x = x, y = x + rnorm(x) * w);
+  dummy;
 }
